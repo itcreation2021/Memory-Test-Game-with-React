@@ -20,7 +20,7 @@ const GameContextProvider = ({ children }) => {
 
   const [timeLeft, setTimeLeft] = useState(45);
   const [gameOver, setGameOver] = useState(false);
-  const [gameWon, setGameWon] = useState(true);
+  const [gameWon, setGameWon] = useState(false);
     const timerRef = useRef(null); // useRef to keep track of the timer
     
       const [score, setScore] = useState(0);
