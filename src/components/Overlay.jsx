@@ -32,14 +32,8 @@ const Overlay = () => {
       {gameWon && (
         <>
           <Confetti
-            width={1000}
-            height={500}
-            confettiSource={{
-              x: 700,
-              y: -50,
-              w: 100,
-              h: 100,
-            }}
+            width={2000}
+            height={1000}
             tweenDuration={5000}
             numberOfPieces={200}
             gravity={0.01}
